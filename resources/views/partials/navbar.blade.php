@@ -33,13 +33,13 @@
                         Laporan
                     </a>
 
-                    <a href="{{ route('history.index') }}"
+                    {{-- <a href="{{ route('history.index') }}"
                         class="nav-link px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200
            {{ request()->routeIs('history.index')
                ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-900/50'
                : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700/50' }}">
                         Riwayat
-                    </a>
+                    </a> --}}
                 </div>
             </div>
 
@@ -167,10 +167,10 @@
                 class="block px-3 py-2 rounded-md text-base font-medium bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
                 Laporan
             </a>
-            <a href="#"
+            {{-- <a href="#"
                 class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700/50">
                 Riwayat
-            </a>
+            </a> --}}
         </div>
     </div>
 </nav>
